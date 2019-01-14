@@ -1,0 +1,65 @@
+*
+{
+    padding:opx;
+    margin:0px;
+    box-sizing:0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;       /*글자 체를 변경*/
+}
+
+body
+{
+    background-color:rgb(245, 179, 204);
+}
+
+nav
+{
+    background-color: tomato;
+    text-align:center; /*메뉴의속성을 display로 인라인으로속성을변경해줌으로써
+                       가운데로 올수있음*/
+}
+nav .menu li
+{
+    list-style-type:none;
+    display:inline-block;
+    padding: 0 10px;    /*왼쪽은 가로 오른쪽은 세로 적용*/
+}
+
+nav .menu a
+{
+    text-decoration:none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav .menu .dropdown-content a
+{
+    display: block;    /*dropdown-content를 하나의 박스로 지정*/
+}
+
+nav .menu
+{
+    display: inline-block; /*메뉴안의 ul은 기본적으로 블록속성을지니기때문에
+                             인라인속성으로변경해준다*/
+    margin: 0 auto;  /*가로는 0 세로는 오토로 마진부여*/
+}
+
+nav .menu .dropdown-content
+{
+    position:absolute;
+    z-index: 1;
+    background-color: tomato;
+    display:none;
+    width:50px;
+}
+
+nav .menu li:hover    /*:은 가상 선택자라고함*/
+                      /*따라서 li라는것을 가상선택을 hover적용시킨다는의미*/
+{
+    background-color:rgb(250, 179, 167)
+}
+
+nav .menu li:hover .dropdown-content /*대상을 .dropdown-content로 선택*/
+{
+    display:block;
+}

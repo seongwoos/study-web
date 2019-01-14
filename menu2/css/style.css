@@ -1,0 +1,99 @@
+
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+header
+{
+    background-color: rgb(252, 148, 129);
+    padding:30px;
+    text-align: center;
+    font-size:30px;
+    color:blue;
+}
+
+body
+{
+    background-color: white;
+}
+
+nav
+{
+    background-color: tomato;
+    text-align: center;
+}
+
+/*이친구가 ul이다*/
+nav .menu 
+{
+    list-style-type: none;  /*ul에 걸어도되고li에 걸어도됨
+                            아이콘 없애기*/
+    display: inline-block; /*ul은 블록이기 때문에 속성을
+                            inline으로 변경*/
+    
+    
+}
+
+
+nav .menu a
+{
+    text-decoration: none; /*밑줄없애기*/
+    color:white;
+    font-size: 17px;
+    display: inline-block;
+    padding: 16px;
+}
+
+nav .menu li
+{
+    display: inline-block;
+    width:81.63px;
+}
+
+nav .menu li:hover
+{
+    background-color: rgb(252, 165, 150);
+}
+
+nav .menu li:hover .dropdown-content
+{
+    display: block;
+}
+
+nav .menu .dropdown .dropdown-content a:hover
+{
+    background-color: rgb(252, 165, 150);
+}
+
+nav .menu .dropdown .dropdown-content 
+{
+    position: absolute;
+    background-color: tomato;
+    min-width: 81.63px;  /*최소 크기지정*/
+    text-align: center;
+    display: none;
+}
+
+nav .menu .dropdown .dropdown-content a
+{
+    display: block;
+}
+
+@media(max-width:500px)
+{
+    nav .menu li
+    {
+        display: block;
+    }
+
+    nav .menu .dropdown .dropdown-content 
+    {
+        position: relative;
+    }
+
+}

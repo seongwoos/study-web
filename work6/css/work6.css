@@ -1,0 +1,159 @@
+*
+{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body
+{
+    background-color: rgb(224, 222, 222);
+
+}
+
+.All-container
+{
+    width: 600px;
+    margin: 0 auto;
+}
+
+body
+{
+    text-align: center;
+}
+
+.grid-container1
+{
+    grid-template-columns: auto auto auto;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.head
+{
+    color: rgb(253, 83, 83);
+}
+
+.ss
+{
+    color: black;
+}
+
+.grid-a1
+{
+    position: relative;
+}
+
+.grid-a11
+{
+    position: absolute;
+    top: 130px;
+    left:40px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+
+.grid-a2
+{
+    position: relative;
+}
+
+.grid-a22
+{
+    position: absolute;
+    top: 130px;
+    left:50px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+
+.grid-a3
+{
+    position: relative;
+}
+
+.grid-a33
+{
+    position: absolute;
+    top: 130px;
+    left:60px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+input
+{
+    border-radius:10px;
+    background-color: rgb(250, 91, 91);
+    padding: 4px;
+    color: aliceblue;
+}
+
+.grid-container1
+{
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
+
+.g1
+{
+   padding: 30px;
+}
+
+.g2
+{
+   padding: 30px;
+}
+
+.grid-b1
+{
+    position: relative;
+}
+
+.grid-b11
+{
+    position: absolute;
+    top: 130px;
+    left:70px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+
+.grid-b2
+{
+    position: relative;
+}
+
+.grid-b22
+{
+    position: absolute;
+    top: 130px;
+    left:60px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+
+.grid-b3
+{
+    position: relative;
+}
+
+.grid-b33
+{
+    position: absolute;
+    top: 130px;
+    left:40px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}

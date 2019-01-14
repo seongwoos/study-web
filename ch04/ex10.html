@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *
+
+        {
+            padding:0px;
+            margin:0px;
+        }
+        nav li a
+        { 
+            color:brown;  
+            text-decoration: none;  /*밑줄없애기*/
+        }
+        nav .menu /*nav안의 메뉴에만 적용*/
+        {
+            list-style-type: none;   /*li 아이콘 없애기*/
+        }
+        nav > .menu > li  /*nav안의.menu에 li만 적용*/
+        {
+            display:inline-block;  /*인라인속성으로 변경*/
+            padding: 0 10px;   /*왼쪽은 가로 오른쪽은 세로 적용*/
+        }
+        .dropdown
+        {
+            position: absolute;
+            display: none; /*화면에서 안보이게숨김*/
+        }
+        .list:hover .dropdown /*리스트에마우스를 올리면 */
+        {
+            display: block; 
+        }
+        .menu li:hover   /*마우스올리면 색상 변경하는방법*/
+        {
+            background-color: cornflowerblue;
+        }
+        .list
+        {
+            /* position: relative; */
+        }
+        /* .dropdown
+        {
+            display:none;
+        } */
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li class="list"><a href="#">Product</a>
+                <ul class="dropdown">
+                    <li><a href="#">sliders</a></li>
+                    <li><a href="#">Galleries</a></li>
+                    <li><a href="#">Apps</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Address</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
