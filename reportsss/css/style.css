@@ -1,0 +1,296 @@
+header
+{
+    background-image: url("https://a0.muscache.com/4ea/air/r:w1550-h1037-sfit,e:fjpg-c80/pictures/425ce4d9-0747-484c-9531-a9de805d0aee.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1200px;
+}
+
+
+
+
+.container .con-top1 a:hover
+{
+    text-decoration: underline; 
+}
+
+.con-top1
+{
+    text-align: right;
+}
+
+.con-top1 div
+{
+    display: inline-block;
+    padding: 10px;
+}
+
+.con-top1 .list1 a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.con-mid1 h1
+{
+    color: white;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.con-mid-a2
+{
+    margin-left: 50px;
+    color: white;
+    width: 1400px;
+    /* border: 1px solid red; */
+}
+.con-mid-in1
+{
+    margin-left: 50px;
+    width: 1170px;
+}
+
+.con-mid-in2
+{
+    display: block;
+    height: 20px;
+}
+
+
+.con-mid-on div
+{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 40px;
+    padding: 15px;
+    
+    
+}
+
+
+.con-mid-in1 .list2:hover
+{
+    text-decoration: underline; 
+    /* 언더라인(아래줄) 스타일 부여 */
+}
+
+.con-mid-a2 div a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.con-mid-a3
+{
+    grid-template-columns: auto auto;
+    display:grid;
+    font-size: 25px;
+    width: 800px;
+    
+
+}
+
+.con-mid-low1
+{
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border-radius: 3%;
+    
+    margin-left: 50px;
+    margin-right: 70px;
+
+
+}
+
+.con-mid-lowin
+{
+    
+    border: 0.5px solid rgb(221, 220, 220);
+    padding: 25px;
+    /* border: 1px solid red; */
+    
+}
+
+.my-input
+{
+    grid-template-columns: 30% 20% 20% 20%;
+    grid-gap: 20px;
+    /* align-items:center; */
+    margin: 0 100px;
+    display: grid;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+
+.my-input-a1
+{
+    width: 320px;
+    /* box-sizing: border-box;    */
+    /* background-color: white; */
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid white;
+    
+}
+
+.my-input-a2
+{
+    width: 200px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.my-input-a3
+{
+    width: 200px; 
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.my-input-a4
+{
+    width: 250px;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+
+.my-input3
+{
+    width: 100px;
+    border-radius: 10px;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: -80px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(252, 104, 104);
+}
+
+
+
+.my-input-a
+{
+    /* border: 1px solid red; */
+    padding: 20px;
+    width: 240px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.my-input2-a
+{
+    display: inline-block;
+    text-align: center;
+    
+}
+
+/* ------------------------------------------------------------------------ */
+
+main
+{
+    margin: 0 150px;
+}
+/* ------------------------------------------------------------------------ */
+
+.sec-a
+{
+    grid-template-columns: auto auto auto;
+    display: grid;
+    grid-gap: 20px;
+    height: 120px;
+    
+}
+
+.sec-a-in1
+{
+    grid-template-columns: auto auto;
+    display: grid;
+    border: 1px solid rgb(167, 166, 166);
+    border-radius: 5px;
+    
+}
+
+.sec-a-in1 div
+{
+    grid-template-columns: auto auto;
+    display: grid;
+    background-size: 100% 100%;
+
+    
+}
+
+.sec-a-in11
+{
+    font-size: 30px;
+    padding: 40px;
+}
+.sec-a-in1 a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* --------------------------------------------------------------------------- */
+.sec-b
+{
+    grid-template-columns: 30% 30% auto;
+    display: grid;
+    grid-gap: 60px;
+    
+}
+
+.sec-b a
+{
+    text-decoration: none;
+}
+
+.sec-b2
+{
+    font-size: 20px;
+}
+
+.sec-b-in1
+{
+    height: 300px;
+    width: 450px; 
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+.sec-b-in2
+{
+    margin: 5px;
+    font-size: 15px;
+    color: rgb(1, 129, 129);
+    font-weight: bold;
+}
+
+.sec-b-in3
+{
+    margin: 5px;
+    color: black;
+}

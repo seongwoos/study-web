@@ -1,0 +1,101 @@
+*
+{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+header
+{
+    
+    background-image: url("https://a0.muscache.com/4ea/air/r:w775-h518-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg");
+    background-repeat: no-repeat;
+    height: 1200px;
+    /* min-height: 100%; */
+    /* width: 100%; */
+    /* background-position: center; */
+    background-size: 100%;
+}
+
+
+.container1
+{
+width: auto;
+margin: 0 auto;
+text-align: center;
+border: 1px solid red;
+height: 1000px;
+text-align: bottom;
+
+
+}
+
+.con-middle
+{
+}
+
+.con-low
+{
+
+    text-align: right;
+    color: white;
+    
+    bottom:0;
+}
+
+
+.con-top
+{
+
+    grid-template-columns: auto auto;
+    display: grid;
+    border: 1px solid red;
+    justify-content: space-between;
+    
+}
+
+
+
+.con-top-2 .list1
+{
+    display:inline-block;
+    padding: 30px;
+    
+}
+
+.con-top a
+{
+    text-decoration:none;
+    list-style-type: none;
+    font-size: 17px;
+    color: white;
+}
+
+
+.con-up
+{   
+    
+    height: 100px;
+    border: 1px solid red;
+    z-index: 1;
+    background-color: white;
+    margin: 100px;
+    height: 500px;
+    /* grid-template-columns: auto auto; */
+    position: absolute;
+    width: 500px;
+}
+
+.con-up1
+{
+    height: 140px;
+    
+    font-size: 20px;
+    border: 1px solid red;
+    color: rgb(78, 78, 78)
+}
+
+.con-up1 input1
+{
+    height: 500px;
+}
