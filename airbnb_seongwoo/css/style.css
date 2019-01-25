@@ -11,7 +11,7 @@ header
 
 .container .con-top1 a:hover
 {
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 .con-top1
@@ -67,14 +67,22 @@ header
     font-size: 25px;
     margin-left: 40px;
     padding: 15px;
-    
+      
     
 }
+/* .con-mid-in1 .list2 a:active
+{
+    text-decoration: underline;
+    border-bottom: 6px solid;
+    padding-bottom: 8px;
+} */
 
 
 .con-mid-in1 .list2:hover
 {
-    text-decoration: underline; 
+    /* text-decoration: underline;  */
+    border-bottom: 6px solid;
+    padding-bottom: 8px;
     /* 언더라인(아래줄) 스타일 부여 */
 }
 
@@ -214,10 +222,10 @@ main
 
 .sec-a
 {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 300px 303px 330px;
     display: grid;
     grid-gap: 20px;
-    height: 120px;
+    height: 60px;
     
 }
 
@@ -230,6 +238,7 @@ main
     
 }
 
+
 .sec-a-in1 div
 {
     grid-template-columns: auto auto;
@@ -241,8 +250,9 @@ main
 
 .sec-a-in11
 {
-    font-size: 30px;
+    font-size: 25px;
     padding: 40px;
+    
 }
 .sec-a-in1 a
 {
